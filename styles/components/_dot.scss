@@ -1,0 +1,35 @@
+.button{
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.btn {
+    border: 0;
+    height: 125px;
+    width: 125px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    &:hover{
+        background: $color1;
+    }
+}
+.btn2{
+    @extend .btn;
+    &:hover{
+    background: $color2
+    }
+}
+.btn3{
+    @extend .btn;
+    &:hover{
+    background: $color3
+    }
+}
+.btn4{
+    @extend .btn;
+    &:hover{
+    background: $color4
+    }
+}

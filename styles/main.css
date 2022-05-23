@@ -1,0 +1,41 @@
+.button {
+  padding-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn, .btn2, .btn3, .btn4 {
+  border: 0;
+  height: 125px;
+  width: 125px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn:hover, .btn2:hover, .btn3:hover, .btn4:hover {
+  background: red;
+}
+
+.btn2:hover {
+  background: blue;
+}
+
+.btn3:hover {
+  background: green;
+}
+
+.btn4:hover {
+  background: violet;
+}
+
+body {
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */
