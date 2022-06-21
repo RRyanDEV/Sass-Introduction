@@ -2,7 +2,7 @@
   Initiation of the SCSS course.
 # Version 1.0.0
 
-First iteration of my website. Built as an exploration into the unknown.
+・Simple website design for study purposes only, but free to use if you want.
 
 ## Preview
 
